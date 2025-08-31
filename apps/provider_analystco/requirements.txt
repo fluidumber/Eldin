@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+whoosh
+markdown2
+pydantic
+python-slugify
+pyyaml
