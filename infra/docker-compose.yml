@@ -2,7 +2,7 @@ version: "3.9"
 services:
   provider:
     build:
-      context: ./apps/provider_analystco
+      context: ../apps/provider_analystco
       dockerfile: Dockerfile
     container_name: eldin_provider
     ports:
@@ -17,7 +17,7 @@ services:
 
   gateway:
     build:
-      context: ./apps/gateway
+      context: ../apps/gateway
       dockerfile: Dockerfile
     container_name: eldin_gateway
     ports:
@@ -35,7 +35,7 @@ services:
 
   web:
     build:
-      context: ./apps/web
+      context: ../apps/web
       dockerfile: Dockerfile
     container_name: eldin_web
     ports:
